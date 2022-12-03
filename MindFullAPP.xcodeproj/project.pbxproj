@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3FD139293829AE00F937DF /* CommunityGuidelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FD138293829AE00F937DF /* CommunityGuidelines.swift */; };
+		0C3FD13B2938457200F937DF /* Reconsider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FD13A2938457200F937DF /* Reconsider.swift */; };
+		0C9EA26929358E7F0004DE79 /* ComingSoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9EA26829358E7E0004DE79 /* ComingSoon.swift */; };
+		0C9EA26B29359EBA0004DE79 /* ChatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9EA26A29359EBA0004DE79 /* ChatType.swift */; };
+		0C9EA26D29359FA00004DE79 /* PeerSupportGroupType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9EA26C29359FA00004DE79 /* PeerSupportGroupType.swift */; };
+		400DCF5B292E62C900DDF7F4 /* VideoChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400DCF5A292E62C900DDF7F4 /* VideoChat.swift */; };
+		4077C81C292C4EDF00F4AFE4 /* MindFullAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C81B292C4EDF00F4AFE4 /* MindFullAPPApp.swift */; };
+		4077C81E292C4EDF00F4AFE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C81D292C4EDF00F4AFE4 /* ContentView.swift */; };
+		4077C820292C4EE000F4AFE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4077C81F292C4EE000F4AFE4 /* Assets.xcassets */; };
+		4077C823292C4EE000F4AFE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4077C822292C4EE000F4AFE4 /* Preview Assets.xcassets */; };
+		4077C82D292C4EE000F4AFE4 /* MindFullAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C82C292C4EE000F4AFE4 /* MindFullAPPTests.swift */; };
+		4077C837292C4EE000F4AFE4 /* MindFullAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C836292C4EE000F4AFE4 /* MindFullAPPUITests.swift */; };
+		4077C839292C4EE000F4AFE4 /* MindFullAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C838292C4EE000F4AFE4 /* MindFullAPPUITestsLaunchTests.swift */; };
+		4077C846292C4EEC00F4AFE4 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C845292C4EEC00F4AFE4 /* SplashScreen.swift */; };
+		4077C84A292C698200F4AFE4 /* PrivateChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C849292C698200F4AFE4 /* PrivateChat.swift */; };
+		4077C84D292D92F500F4AFE4 /* grass_flow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4077C84C292D92F500F4AFE4 /* grass_flow.gif */; };
+		4077C84F292D939800F4AFE4 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C84E292D939800F4AFE4 /* GifView.swift */; };
+		407944C9292EE53C00E9306E /* ListOfResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407944C8292EE53C00E9306E /* ListOfResources.swift */; };
+		407944CB292F027F00E9306E /* Create_Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407944CA292F027F00E9306E /* Create_Account.swift */; };
+		407944CD292F02A800E9306E /* MINDFULL_LOGIN_SCREEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407944CC292F02A800E9306E /* MINDFULL_LOGIN_SCREEN.swift */; };
+		407944CF292F02B200E9306E /* PeerSupportGroup-Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407944CE292F02B200E9306E /* PeerSupportGroup-Voice.swift */; };
+		407944D1292F02C100E9306E /* Therapists_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407944D0292F02C100E9306E /* Therapists_List.swift */; };
+		409191032936E4D100727A47 /* DelayScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409191022936E4D100727A47 /* DelayScreen.swift */; };
+		40DEB14529357B6000A37F04 /* AILMENT SELECTION.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DEB14429357B6000A37F04 /* AILMENT SELECTION.swift */; };
+		40DEB14729357B6D00A37F04 /* COMMUNITY:PRIVATE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DEB14629357B6D00A37F04 /* COMMUNITY:PRIVATE.swift */; };
+		40DEB14929357B7600A37F04 /* ContactDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DEB14829357B7600A37F04 /* ContactDoc.swift */; };
+		40DEB14D29357C1800A37F04 /* WELCOMESCREEN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DEB14C29357C1800A37F04 /* WELCOMESCREEN.swift */; };
+		40DEB14F29357C3B00A37F04 /* RESOURCES PAGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DEB14E29357C3B00A37F04 /* RESOURCES PAGE.swift */; };
+		40DEB15129357C4300A37F04 /* SEARCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DEB15029357C4300A37F04 /* SEARCH.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4077C829292C4EE000F4AFE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4077C810292C4EDF00F4AFE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4077C817292C4EDF00F4AFE4;
+			remoteInfo = MindFullAPP;
+		};
+		4077C833292C4EE000F4AFE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4077C810292C4EDF00F4AFE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4077C817292C4EDF00F4AFE4;
+			remoteInfo = MindFullAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C3FD138293829AE00F937DF /* CommunityGuidelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityGuidelines.swift; sourceTree = "<group>"; };
+		0C3FD13A2938457200F937DF /* Reconsider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reconsider.swift; sourceTree = "<group>"; };
+		0C9EA26829358E7E0004DE79 /* ComingSoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoon.swift; sourceTree = "<group>"; };
+		0C9EA26A29359EBA0004DE79 /* ChatType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatType.swift; sourceTree = "<group>"; };
+		0C9EA26C29359FA00004DE79 /* PeerSupportGroupType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerSupportGroupType.swift; sourceTree = "<group>"; };
+		400DCF5A292E62C900DDF7F4 /* VideoChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoChat.swift; sourceTree = "<group>"; };
+		4077C818292C4EDF00F4AFE4 /* MindFullAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindFullAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4077C81B292C4EDF00F4AFE4 /* MindFullAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFullAPPApp.swift; sourceTree = "<group>"; };
+		4077C81D292C4EDF00F4AFE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		4077C81F292C4EE000F4AFE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4077C822292C4EE000F4AFE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4077C828292C4EE000F4AFE4 /* MindFullAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindFullAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4077C82C292C4EE000F4AFE4 /* MindFullAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFullAPPTests.swift; sourceTree = "<group>"; };
+		4077C832292C4EE000F4AFE4 /* MindFullAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindFullAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4077C836292C4EE000F4AFE4 /* MindFullAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFullAPPUITests.swift; sourceTree = "<group>"; };
+		4077C838292C4EE000F4AFE4 /* MindFullAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFullAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4077C845292C4EEC00F4AFE4 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		4077C849292C698200F4AFE4 /* PrivateChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateChat.swift; sourceTree = "<group>"; };
+		4077C84C292D92F500F4AFE4 /* grass_flow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = grass_flow.gif; sourceTree = "<group>"; };
+		4077C84E292D939800F4AFE4 /* GifView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		407944C8292EE53C00E9306E /* ListOfResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfResources.swift; sourceTree = "<group>"; };
+		407944CA292F027F00E9306E /* Create_Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Create_Account.swift; sourceTree = "<group>"; };
+		407944CC292F02A800E9306E /* MINDFULL_LOGIN_SCREEN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MINDFULL_LOGIN_SCREEN.swift; sourceTree = "<group>"; };
+		407944CE292F02B200E9306E /* PeerSupportGroup-Voice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PeerSupportGroup-Voice.swift"; sourceTree = "<group>"; };
+		407944D0292F02C100E9306E /* Therapists_List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Therapists_List.swift; sourceTree = "<group>"; };
+		409191022936E4D100727A47 /* DelayScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayScreen.swift; sourceTree = "<group>"; };
+		40DEB14429357B6000A37F04 /* AILMENT SELECTION.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AILMENT SELECTION.swift"; sourceTree = "<group>"; };
+		40DEB14629357B6D00A37F04 /* COMMUNITY:PRIVATE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "COMMUNITY:PRIVATE.swift"; sourceTree = "<group>"; };
+		40DEB14829357B7600A37F04 /* ContactDoc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDoc.swift; sourceTree = "<group>"; };
+		40DEB14C29357C1800A37F04 /* WELCOMESCREEN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WELCOMESCREEN.swift; sourceTree = "<group>"; };
+		40DEB14E29357C3B00A37F04 /* RESOURCES PAGE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RESOURCES PAGE.swift"; sourceTree = "<group>"; };
+		40DEB15029357C4300A37F04 /* SEARCH.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEARCH.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4077C815292C4EDF00F4AFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C825292C4EE000F4AFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C82F292C4EE000F4AFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4077C80F292C4EDF00F4AFE4 = {
+			isa = PBXGroup;
+			children = (
+				4077C81A292C4EDF00F4AFE4 /* MindFullAPP */,
+				4077C82B292C4EE000F4AFE4 /* MindFullAPPTests */,
+				4077C835292C4EE000F4AFE4 /* MindFullAPPUITests */,
+				4077C819292C4EDF00F4AFE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4077C819292C4EDF00F4AFE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4077C818292C4EDF00F4AFE4 /* MindFullAPP.app */,
+				4077C828292C4EE000F4AFE4 /* MindFullAPPTests.xctest */,
+				4077C832292C4EE000F4AFE4 /* MindFullAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4077C81A292C4EDF00F4AFE4 /* MindFullAPP */ = {
+			isa = PBXGroup;
+			children = (
+				4077C81B292C4EDF00F4AFE4 /* MindFullAPPApp.swift */,
+				4077C84E292D939800F4AFE4 /* GifView.swift */,
+				409191022936E4D100727A47 /* DelayScreen.swift */,
+				4077C84C292D92F500F4AFE4 /* grass_flow.gif */,
+				4077C81D292C4EDF00F4AFE4 /* ContentView.swift */,
+				40DEB14C29357C1800A37F04 /* WELCOMESCREEN.swift */,
+				407944CA292F027F00E9306E /* Create_Account.swift */,
+				407944CC292F02A800E9306E /* MINDFULL_LOGIN_SCREEN.swift */,
+				4077C845292C4EEC00F4AFE4 /* SplashScreen.swift */,
+				40DEB14429357B6000A37F04 /* AILMENT SELECTION.swift */,
+				40DEB14E29357C3B00A37F04 /* RESOURCES PAGE.swift */,
+				40DEB14629357B6D00A37F04 /* COMMUNITY:PRIVATE.swift */,
+				0C9EA26A29359EBA0004DE79 /* ChatType.swift */,
+				0C9EA26C29359FA00004DE79 /* PeerSupportGroupType.swift */,
+				4077C849292C698200F4AFE4 /* PrivateChat.swift */,
+				400DCF5A292E62C900DDF7F4 /* VideoChat.swift */,
+				407944CE292F02B200E9306E /* PeerSupportGroup-Voice.swift */,
+				40DEB15029357C4300A37F04 /* SEARCH.swift */,
+				407944D0292F02C100E9306E /* Therapists_List.swift */,
+				40DEB14829357B7600A37F04 /* ContactDoc.swift */,
+				407944C8292EE53C00E9306E /* ListOfResources.swift */,
+				0C9EA26829358E7E0004DE79 /* ComingSoon.swift */,
+				0C3FD138293829AE00F937DF /* CommunityGuidelines.swift */,
+				0C3FD13A2938457200F937DF /* Reconsider.swift */,
+				4077C81F292C4EE000F4AFE4 /* Assets.xcassets */,
+				4077C821292C4EE000F4AFE4 /* Preview Content */,
+			);
+			path = MindFullAPP;
+			sourceTree = "<group>";
+		};
+		4077C821292C4EE000F4AFE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4077C822292C4EE000F4AFE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4077C82B292C4EE000F4AFE4 /* MindFullAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				4077C82C292C4EE000F4AFE4 /* MindFullAPPTests.swift */,
+			);
+			path = MindFullAPPTests;
+			sourceTree = "<group>";
+		};
+		4077C835292C4EE000F4AFE4 /* MindFullAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4077C836292C4EE000F4AFE4 /* MindFullAPPUITests.swift */,
+				4077C838292C4EE000F4AFE4 /* MindFullAPPUITestsLaunchTests.swift */,
+			);
+			path = MindFullAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4077C817292C4EDF00F4AFE4 /* MindFullAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4077C83C292C4EE000F4AFE4 /* Build configuration list for PBXNativeTarget "MindFullAPP" */;
+			buildPhases = (
+				4077C814292C4EDF00F4AFE4 /* Sources */,
+				4077C815292C4EDF00F4AFE4 /* Frameworks */,
+				4077C816292C4EDF00F4AFE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindFullAPP;
+			productName = MindFullAPP;
+			productReference = 4077C818292C4EDF00F4AFE4 /* MindFullAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4077C827292C4EE000F4AFE4 /* MindFullAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4077C83F292C4EE000F4AFE4 /* Build configuration list for PBXNativeTarget "MindFullAPPTests" */;
+			buildPhases = (
+				4077C824292C4EE000F4AFE4 /* Sources */,
+				4077C825292C4EE000F4AFE4 /* Frameworks */,
+				4077C826292C4EE000F4AFE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4077C82A292C4EE000F4AFE4 /* PBXTargetDependency */,
+			);
+			name = MindFullAPPTests;
+			productName = MindFullAPPTests;
+			productReference = 4077C828292C4EE000F4AFE4 /* MindFullAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4077C831292C4EE000F4AFE4 /* MindFullAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4077C842292C4EE000F4AFE4 /* Build configuration list for PBXNativeTarget "MindFullAPPUITests" */;
+			buildPhases = (
+				4077C82E292C4EE000F4AFE4 /* Sources */,
+				4077C82F292C4EE000F4AFE4 /* Frameworks */,
+				4077C830292C4EE000F4AFE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4077C834292C4EE000F4AFE4 /* PBXTargetDependency */,
+			);
+			name = MindFullAPPUITests;
+			productName = MindFullAPPUITests;
+			productReference = 4077C832292C4EE000F4AFE4 /* MindFullAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4077C810292C4EDF00F4AFE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4077C817292C4EDF00F4AFE4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					4077C827292C4EE000F4AFE4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 4077C817292C4EDF00F4AFE4;
+					};
+					4077C831292C4EE000F4AFE4 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 4077C817292C4EDF00F4AFE4;
+					};
+				};
+			};
+			buildConfigurationList = 4077C813292C4EDF00F4AFE4 /* Build configuration list for PBXProject "MindFullAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4077C80F292C4EDF00F4AFE4;
+			productRefGroup = 4077C819292C4EDF00F4AFE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4077C817292C4EDF00F4AFE4 /* MindFullAPP */,
+				4077C827292C4EE000F4AFE4 /* MindFullAPPTests */,
+				4077C831292C4EE000F4AFE4 /* MindFullAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4077C816292C4EDF00F4AFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4077C84D292D92F500F4AFE4 /* grass_flow.gif in Resources */,
+				4077C823292C4EE000F4AFE4 /* Preview Assets.xcassets in Resources */,
+				4077C820292C4EE000F4AFE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C826292C4EE000F4AFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C830292C4EE000F4AFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4077C814292C4EDF00F4AFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4077C84F292D939800F4AFE4 /* GifView.swift in Sources */,
+				40DEB14929357B7600A37F04 /* ContactDoc.swift in Sources */,
+				407944C9292EE53C00E9306E /* ListOfResources.swift in Sources */,
+				407944D1292F02C100E9306E /* Therapists_List.swift in Sources */,
+				4077C846292C4EEC00F4AFE4 /* SplashScreen.swift in Sources */,
+				0C9EA26D29359FA00004DE79 /* PeerSupportGroupType.swift in Sources */,
+				409191032936E4D100727A47 /* DelayScreen.swift in Sources */,
+				4077C81E292C4EDF00F4AFE4 /* ContentView.swift in Sources */,
+				4077C81C292C4EDF00F4AFE4 /* MindFullAPPApp.swift in Sources */,
+				40DEB14F29357C3B00A37F04 /* RESOURCES PAGE.swift in Sources */,
+				40DEB15129357C4300A37F04 /* SEARCH.swift in Sources */,
+				40DEB14729357B6D00A37F04 /* COMMUNITY:PRIVATE.swift in Sources */,
+				40DEB14D29357C1800A37F04 /* WELCOMESCREEN.swift in Sources */,
+				0C9EA26B29359EBA0004DE79 /* ChatType.swift in Sources */,
+				4077C84A292C698200F4AFE4 /* PrivateChat.swift in Sources */,
+				400DCF5B292E62C900DDF7F4 /* VideoChat.swift in Sources */,
+				0C3FD139293829AE00F937DF /* CommunityGuidelines.swift in Sources */,
+				407944CD292F02A800E9306E /* MINDFULL_LOGIN_SCREEN.swift in Sources */,
+				407944CF292F02B200E9306E /* PeerSupportGroup-Voice.swift in Sources */,
+				0C3FD13B2938457200F937DF /* Reconsider.swift in Sources */,
+				40DEB14529357B6000A37F04 /* AILMENT SELECTION.swift in Sources */,
+				407944CB292F027F00E9306E /* Create_Account.swift in Sources */,
+				0C9EA26929358E7F0004DE79 /* ComingSoon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C824292C4EE000F4AFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4077C82D292C4EE000F4AFE4 /* MindFullAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C82E292C4EE000F4AFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4077C837292C4EE000F4AFE4 /* MindFullAPPUITests.swift in Sources */,
+				4077C839292C4EE000F4AFE4 /* MindFullAPPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4077C82A292C4EE000F4AFE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4077C817292C4EDF00F4AFE4 /* MindFullAPP */;
+			targetProxy = 4077C829292C4EE000F4AFE4 /* PBXContainerItemProxy */;
+		};
+		4077C834292C4EE000F4AFE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4077C817292C4EDF00F4AFE4 /* MindFullAPP */;
+			targetProxy = 4077C833292C4EE000F4AFE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4077C83A292C4EE000F4AFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4077C83B292C4EE000F4AFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4077C83D292C4EE000F4AFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindFullAPP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MINDFULL.MindFullAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4077C83E292C4EE000F4AFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindFullAPP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MINDFULL.MindFullAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4077C840292C4EE000F4AFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MINDFULL.MindFullAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindFullAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindFullAPP";
+			};
+			name = Debug;
+		};
+		4077C841292C4EE000F4AFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MINDFULL.MindFullAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindFullAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindFullAPP";
+			};
+			name = Release;
+		};
+		4077C843292C4EE000F4AFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MINDFULL.MindFullAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindFullAPP;
+			};
+			name = Debug;
+		};
+		4077C844292C4EE000F4AFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MINDFULL.MindFullAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindFullAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4077C813292C4EDF00F4AFE4 /* Build configuration list for PBXProject "MindFullAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4077C83A292C4EE000F4AFE4 /* Debug */,
+				4077C83B292C4EE000F4AFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4077C83C292C4EE000F4AFE4 /* Build configuration list for PBXNativeTarget "MindFullAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4077C83D292C4EE000F4AFE4 /* Debug */,
+				4077C83E292C4EE000F4AFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4077C83F292C4EE000F4AFE4 /* Build configuration list for PBXNativeTarget "MindFullAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4077C840292C4EE000F4AFE4 /* Debug */,
+				4077C841292C4EE000F4AFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4077C842292C4EE000F4AFE4 /* Build configuration list for PBXNativeTarget "MindFullAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4077C843292C4EE000F4AFE4 /* Debug */,
+				4077C844292C4EE000F4AFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4077C810292C4EDF00F4AFE4 /* Project object */;
+}
